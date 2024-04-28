@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "crewai-sports-news-agency"
+version = "0.1.0"
+description = ""
+authors = ["sami sabir-idrissi <samisabiridrissi@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<=3.13"
+crewai = {extras = ["tools"], version = "^0.28.8"}
+psycopg2 = "^2.9.9"
+pytest = "^8.2.0"
+flask = "^3.0.3"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
